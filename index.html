@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Card Validity</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+</head>
+<body>
+<header>
+    <h1>Credit Card Validity</h1>
+    <h3>Enter month and year of your card to check the validity</h3>
+</header>
+<img id="image" src="images/card.png">
+<div id = "form">
+<form name="myForm" onsubmit="return validity()" method="post">
+    <table id ="table">
+
+        <tr>
+            <td>Enter Month:</td>
+            <td><input  id="id_exp_mon" type="text" name="mname" placeholder="Enter Month(MM)"></td>
+        </tr>
+        <tr>
+            <td>Enter year:</td>
+            <td><input id="id_exp_year" type="text" name="yname" placeholder="Enter Year(YYYY)"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input id="submit" type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/myscripts.js"></script>
+
+
+</body>
+</html>

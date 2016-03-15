@@ -1,0 +1,48 @@
+body{
+    background-color: beige;
+}
+
+header{
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+    font-style: italic;
+}
+
+#form{
+   align-content: center;
+    margin-left: 500px;
+    margin-top: 50px;
+    text-transform:uppercase;
+    font-family: monospace;
+    font-size: x-large;
+
+
+}
+#table{
+    border: solid red 2px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#submit{
+
+    background-color: cornsilk;
+
+    font-size: x-large;
+    margin: 10px;
+    width: 100px;
+    font-family: monospace;
+
+
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: indianred;
+    border-radius: 10px;
+}
+#image{
+    width: 500px;
+    height: 80px;
+    margin-left: 400px;
+}
